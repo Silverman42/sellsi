@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Commission Setting</title>
+</head>
+
+<body class="bg-light">
+    <div style="background:url(./img/sellsio_background.png)">
+        <div class="container px-3 py-3 text-center px-lg-0">
+            <h1 class="text-white text-2xl">Commission Manager</h1>
+        </div>
+    </div>
+    <div class="container px-3 py-5 px-lg-0">
+        <div class="bg-white px-2 py-4 invoice-holder">
+            <div class="col-12">
+                <div class="d-flex justify-content-end mb-3">
+                    <button class="btn marcotin-green-no-border-button text-sm px-3 py-2">
+                        Create
+                    </button>
+                </div>
+                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between mb-3">
+                    <div class="mb-3">
+                        <div class="text-sm d-flex align-items-center">
+                            <span class="mr-1">Show</span>
+                            <input style="width: 50px" type="number" value="20" class="form-control form-control-sm mr-1">
+                            <span>Entries</span>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="text-sm d-flex align-items-center">
+                            <span class="mr-1">Search: </span>
+                            <input style="width: 100px" type="text" class="form-control form-control-sm mr-1">
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-bordered table-responsive-lg">
+                    <thead>
+                        <tr class="text-xs">
+                            <th scope="col" style="width: 20%;">Category</th>
+                            <th scope="col" style="width: 20%;">Type</th>
+                            <th scope="col" style="width: 20%;">Value Type</th>
+                            <th scope="col" style="width: 20%;">Tier</th>
+                            <th scope="col" style="width: 20%;">Percentage/Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-xs">
+                        <tr>
+                            <td colspan="14" class="text-center text-sm font-weight-bold bg-light"> No data found </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="text-xs font-weight-bold">Showing 0 to 0 of 0 entries</div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination pagination-sm justify-content-center">
+                          <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                          </li>
+                          <li class="page-item disabled">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
